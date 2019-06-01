@@ -1,0 +1,123 @@
+Section 1:
+Introduction
+1. Introduction and tooling setup			
+2:08		Extension for developing react apps			
+4:12		Run the starter project						
+
+2. Web App structure and components
+1:58		How to decide what components do you need per page ?
+4:29		What are the different pages in this movie app ?
+4:58		What are the ways you can use css for React component ?
+
+
+Section 2:
+The Home page - part 1
+3. Start building components with JSX
+4:43		Can we return multiple elements from a react component ?
+6:10		Why did we add Component class in Home component and not in App component ?
+9:30		Creating component for Header
+
+4. Scaffolding out the components for the home page
+2:08		Creating the component for HeroImage
+3:42		Creating a SearchBar component
+4:49		Creating component for the Search Grid
+5:41		Creating the MovieThumb component
+6:44		Creating the LoadMore component
+7:49		Creating the spinner component
+9:26		How to import all the components in another component ?
+11:19		Using different component in one component
+
+Section 3:
+Short on props and state
+5. Crash course in props and state
+0:37		What are props ?
+2:20		Old and new syntax to declare state
+2:58		What is state ?
+5:20		How to send data from one component to another (from top of the tree to downwards) ?
+
+Section 4:
+The Home page - part 2
+6. Using Fetch to get API data
+2:36		What are the various lifecycle methods for a component ?
+6:40		How to fetch data from an API ?
+8:25		How can we maintain list of old movies and also append new movies to the movies array ?
+
+7. HeroImage and the SearchBar with talk about Controlled Components
+1:09		How to do inline styling for a react app ?
+3:45		Configuring the HeroImage component
+5:36		How to send prop data from Home to Image component ?
+6:00		How to check if state of heroimage exists ?
+11:16		Set text for the each item and find it
+16:01		IMP : How to pass function as props from child to parent ?
+
+8. Finishing the Components for the Home Page
+1:27		How to check for null
+9:01		IMP: Iterating elements
+13:53		How to handle spinner and load more button ?
+
+Section 5:
+React Router
+9. React Router, Links and short on Fragments
+0:35		How do we change the page / route in React ?
+1:57		How to use Routes in React ?
+2:26		What is React Fragment ?
+4:44		How to include routes in App.js ?
+8:59		Create Link to Movie page from the Header Component
+10:56		Pass data with the link
+
+
+Section 6:
+The Movie Page
+10. Scaffolding out the components for the movie page
+3:27		Import all component to use in the Movie page
+6:43		Import components for Movie Info
+8:22		Component for MovieInfoBar
+9:38		Creating the Actor Component
+10:26		Call the components in order of the display on the Movie page
+
+11. Fetching the API data for the Movie page
+6:18		Handle no data found and bind movies
+7:28		IMP - How to get data from params url ?
+10:24		IMP - Inner method Fetch Actors and Directors
+
+12. Finishing the components for the Movie page - part 1
+1:56		Navigation Component
+8:19		Movie Info Component
+10:49		IMP : Display director or directors
+13. Finishing the components for the Movie page - part 2
+5:04		Movi Info bar component
+7:50		Actor Component
+13:22		Include all components to create the movie page
+
+Section 7:
+Type checking with PropTypes
+14. Crash course in PropTypes
+0:16		What is the use of Prop types ?
+1:02		Documentation for React prop type
+2:18		How to use Prop types ?
+4:44		How to check if Prop is needed
+
+Section 8:
+Local Storage
+15. Keeping state with Local Storage
+1:53		How to store state in Local storage ?
+2:19		How and when to fetch data from Local Storage ?
+3:42		How to test if the Local Storage works ? What problem does it solve ?
+5:36		Local Storage for Movie page
+
+Section 9:
+Production Build for deploy
+16. Create a production build for deployment
+0:49		What is the use of basename ?
+2:33		How to create a production level build ?
+
+Section 10:
+BONUS - Destructuring Props and State
+17. Use ES6 destructuring on props and state
+1:49		How to replace props.propertyName to propertyName ?
+3:58		How to replace state.propertyName with propertyName ?
+
+Section 11:
+BONUS - Async & Await
+18. Use Async and Await for fetching API data
+0:35		Using Async Await

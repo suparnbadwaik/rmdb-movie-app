@@ -1,0 +1,5 @@
+State Destructuring : Home.js	=>	render()
+
+Props Destructuring : MovieThumb.js
+
+Shorten the code : Header.js
